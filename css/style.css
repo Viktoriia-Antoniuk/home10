@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.discover .container {
+  max-width: 1152px;
+  margin-top: 80px;
+}
+.discover .container .tech-1 {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-family: Bai Jamjuree;
+  font-style: normal;
+  font-weight: bold;
+}
+.discover .container .tech-1 h1 {
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+}
+@media (max-width: 570px) {
+  .discover .container .tech-1 h1 {
+    font-size: 55px;
+    padding: 0 15px;
+  }
+}
+.discover .container .tech-1 p {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  background: linear-gradient(90deg, #9BAAFA 0%, #367BF5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 48px;
+  padding: 0 150px;
+}
+@media (max-width: 870px) {
+  .discover .container .tech-1 p {
+    padding: 0 75px;
+  }
+}
+@media (max-width: 570px) {
+  .discover .container .tech-1 p {
+    padding: 0 10px;
+  }
+}
+.discover .container .tech-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.discover .container .tech-2 .tech-col {
+  width: 29%;
+  display: flex;
+  margin: 0 40px 48px 0;
+  padding: 16px;
+}
+.discover .container .tech-2 .tech-col:nth-child(3n) {
+  margin-right: 0;
+}
+.discover .container .tech-2 .tech-col:hover {
+  background: #E6EFFF;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.discover .container .tech-2 .tech-col:hover div:nth-child(1) {
+  background: #FFFFFF;
+}
+.discover .container .tech-2 .tech-col:active {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(54, 123, 245, 0.16), 0px 2px 4px rgba(54, 123, 245, 0.24);
+  border-radius: 8px;
+}
+@media (max-width: 870px) {
+  .discover .container .tech-2 .tech-col {
+    width: 45%;
+    margin: 0 20px 24px 0;
+  }
+}
+@media (max-width: 570px) {
+  .discover .container .tech-2 .tech-col {
+    width: 80%;
+  }
+}
+.discover .container .tech-2 .tech-col .icon {
+  max-width: 48px;
+  height: 48px;
+  margin-right: 16px;
+  border-radius: 99px;
+  background: #E6EFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  flex: 1 0 50px;
+}
+.discover .container .tech-2 .tech-col .describe {
+  width: 100%;
+}
+@media (max-width: 570px) {
+  .discover .container .tech-2 .tech-col .describe {
+    font-size: 10px;
+  }
+}
+.discover .container .tech-2 .tech-col .describe h2 {
+  font-family: Bai Jamjuree;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+  color: #5E6366;
+}
+.discover .container .tech-2 .tech-col .describe p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: #5E6366;
+}
+
+/*# sourceMappingURL=style.css.map */
